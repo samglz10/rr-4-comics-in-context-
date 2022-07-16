@@ -7,10 +7,10 @@ const App = () => {
   const [searchQuery, setSearchQuery] = useState("");
 
   return (
-    <>
-      <SearchForm />
-      <SearchResults />
-    </>
+    <div>
+      <SearchForm onSubmitSearchQuery={setSearchQuery} />
+      <SearchResults searchQuery={searchQuery} />
+    </div>
   )
 }
 

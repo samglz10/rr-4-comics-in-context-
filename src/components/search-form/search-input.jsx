@@ -9,7 +9,7 @@ const SearchInput = (props) => {
   return (
     <label>
       <span style={{ display: 'block' }}>
-        You wrote {props.input}
+        Search for anything music (artist, song, album, etc)
       </span>
       <input 
         type="search"
